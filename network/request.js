@@ -2,8 +2,8 @@ import axios from "axios"
 
 // config axios
 let instance = axios.create()
-instance.defaults.baseURL = "http://"
-//拦截器启�?instance.interceptors.request.use(data => {
+instance.defaults.baseURL = "http://http://152.136.185.210:8000/api/n3"
+//æ‹¦æˆªå™¨å¯åŠ?instance.interceptors.request.use(data => {
   return data
 }, msg => {
   console.log(msg);
